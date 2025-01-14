@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Sayt</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="particles">
+        <div class="particle" style="--i:1;"></div>
+        <div class="particle" style="--i:2;"></div>
+        <div class="particle" style="--i:3;"></div>
+    </div>
+
+    <nav>
+        <div class="logo">
+            <span class="logo-text">Portfolio</span>
+            <div class="logo-effect"></div>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">MARS</a>
+            <a href="#skills" class="nav-link">MARS</a>
+            <a href="#projects" class="nav-link">MARS</a>
+            <a href="#services" class="nav-link">MARS</a>
+            <a href="#contact" class="nav-link">MARS</a>
+        </div>
+        <a href="">
+            <img src="" alt="">
+        </a>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="typing-container">
+                    <h1>Salom, Men <span class="highlight">Nodirjon</span></h1>
+                    <h2 class="typing-text">Frontend Developer</h2>
+                </div>
+                <p class="description">Mars IT School talabasi, Frontend yo'nalishi bo'yicha o'qiyman. 
+                   Zamonaviy web ilovalar yaratish bo'yicha bilim va ko'nikmalarga egaman.</p>
+                
+                <div class="skills-preview">
+                    <span class="skill-tag">HTML</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" class="social-icon linkedin" data-tooltip="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="social-icon github" data-tooltip="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-icon telegram" data-tooltip="Telegram">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    <a href="#" class="social-icon instagram" data-tooltip="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+
+                <div class="cta-buttons">
+                    <button class="download-btn">
+                        <i class="fas fa-download"></i>
+                        Resume Yuklash
+                    </button>
+                    <button class="contact-btn">
+                        <i class="./photo_2025-01-13_10-07-15.jpg"></i>
+                        Bog'lanish
+                    </button>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-container">
+                    <img src="./img/nodir.jpg" alt="Profile">
+                    <div class="glow-effect"></div>
+                </div>
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+        </section> 
+<section id="skills" class="skills-section">
+    <h2 class="section-title">Ko'nikmalar</h2>
+    <div class="skills-container">
+        <div class="skill-card" data-progress="90">
+            <div class="skill-icon">
+                <i class="fab fa-html5"></i>
+            </div>
+            <h3>HTML5</h3>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <span class="percentage">90%</span>
+        </div>
+      
+    </div>
+</section>
+
+
+<section id="projects" class="projects-section">
+    <h2 class="section-title"><FRONT-END>DEVELOPMENT</FRONT-END></h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <div class="project-image">
+                <img src="./img/frontend.png" alt="Project 1">
+                <div class="project-overlay">
+                    <div class="project-links">
+                        <a href="#" class="live-demo">Demo</a>
+                        <a href="#" class="source-code">Kod</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3>Loyiha </h3>
+                <p>ODI VA KISKA LOYIHA</p>
+                <div class="project-tags">
+                    <span>HTML</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Bog'lanish</h2>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>nodir5625@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+998 90 807 41 37</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Tashkent, Uzbekistan</span>
+                </div>
+            </div>
+        </div>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Ismingiz" required>
+                <span class="focus-border"></span>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email" required>
+                <span class="focus-border"></span>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Xabar" required></textarea>
+                <span class="focus-border"></span>
+            </div>
+            <button type="submit" class="submit-btn">
+                <span>Yuborish</span>
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </form>
+    </div>
+</section>
+</main>
+
+<script src="./photo_2025-01-13_10-07-15.jpg"></script>
+</body>
+</html>
